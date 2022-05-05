@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Cards
+    uniqueID: 1244231915
+    locked: 0
+  - name: Frame
+    uniqueID: 4028440911
+    locked: 0
+  - name: Tokens
+    uniqueID: 678057089
+    locked: 0
+  - name: Map
+    uniqueID: 72041991
+    locked: 0
