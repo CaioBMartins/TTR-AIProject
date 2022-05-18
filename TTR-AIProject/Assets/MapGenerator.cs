@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
-
+    Sprite[] routeSprites;
     // Start is called before the first frame update
     void Start()
     {
-        PlaceTrack(1, 1);
+        Sprite[] routeSprites = (Sprite) UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/MapAssets.png");
+        Debug.Log(routeSprites.Length);
+        //PlaceTrack(1, 1);
     }
 
     // Update is called once per frame
@@ -18,9 +20,10 @@ public class MapGenerator : MonoBehaviour
     }
 
     void PlaceTrack(int length, int color){
+        length -= 1;
         GameObject Track = new GameObject("New Track");
         SpriteRenderer renderer = Track.AddComponent<SpriteRenderer>();
-        renderer.sprite = (Sprite) Resources.Load(@"Assets\routeTileGray");
+        
         var trackRenderer = Track.GetComponent<Renderer>();
 
         switch (color){

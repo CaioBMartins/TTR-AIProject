@@ -43,13 +43,13 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteBorder: {x: 0, y: 1000, z: 3500, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -116,64 +116,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cityMarker
+      name: CityNode
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1000
         width: 200
         height: 200
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afd11b792b7289a45ad8dd9b9e8f1c75
-      internalID: 340365576
+      spriteID: dbb015e1255934a4fbe2f86052363ab8
+      internalID: 387896341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: routeTileGray
+      name: 1Route
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 500
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9810f155a1c5c24ca5550310c28af98
+      internalID: -960435323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Route
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 1000
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4cf075b101edc49a2cc2fe8b47598e
+      internalID: 440992519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Route
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 1500
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79be1d734cee24db961fccd0355785
+      internalID: 1364927563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4Route
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 2000
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e35e818282aa849866180015c9e6d1
+      internalID: 627894622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5Route
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 2500
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe23a265a3fc3b45b645c1a95a46f22
+      internalID: 722955969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6Route
       rect:
         serializedVersion: 2
         x: 200
         y: 0
-        width: 500
+        width: 3000
         height: 200
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7db8a49079b4a4893fef652aec355b
-      internalID: 1904957176
+      spriteID: f590a48128f2c5441bfd73656377c7b4
+      internalID: -663020150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trainTokenGray
+      name: 6Train
       rect:
         serializedVersion: 2
         x: 700
-        y: 0
-        width: 500
+        y: 1000
+        width: 3000
         height: 200
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87f8a2c6847fa324096f1c2adc342f0c
-      internalID: 37416269
+      spriteID: e89958f384951a84eb0e965b5fa43a1c
+      internalID: -587036915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5Train
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 2499
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54150dfb86a597c42b90544908a77c8c
+      internalID: -428713413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4Train
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 600
+        width: 2000
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c512c9f3548f4894eda2a1530a34b
+      internalID: 1273671980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Train
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 400
+        width: 1500
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d903264ea5edc458481a4906510110
+      internalID: -1272625399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2Train
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 200
+        width: 1000
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af93ad08f2df784cbb365df6253e9f8
+      internalID: -228387142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1Train
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 496
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f98015bb82d1d419fa78a36ea399d7
+      internalID: 2142670350
       vertices: []
       indices: 
       edges: []
@@ -182,19 +392,26 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MapAssets_3: 1472164945
-      routeTileGray: 1904957176
-      trainTokenGray: 37416269
-      MapAssets_2: 1542500152
-      MapAssets_5: -1464239458
-      cityMarker: 340365576
+      6Train: -587036915
+      4Route: 627894622
+      5Train: -428713413
+      4Train: 1273671980
+      CityNode: 387896341
+      1Route: -960435323
+      3Train: -1272625399
+      2Train: -228387142
+      1Train: 2142670350
+      3Route: 1364927563
+      2Route: 440992519
+      6Route: -663020150
+      5Route: 722955969
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
