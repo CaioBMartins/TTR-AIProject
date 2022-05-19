@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
-    Sprite[] routeSprites;
-    // Start is called before the first frame update
+    Sprite[] routeSprites = new Sprite[6];
+    Sprite[] trainSprites = new Sprite[6];
+    Sprite cityToken;
+
+    // Start is called before the fir
+    //
+    // st frame update
     void Start()
     {
-        Sprite[] routeSprites = (Sprite) UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/MapAssets.png");
-        Debug.Log(routeSprites.Length);
-        //PlaceTrack(1, 1);
-    }
+        Object[] data = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/MapAssets.png");
 
+        int numSprites = 0;
+
+        for(int i = 0; i < data.Length; i++)
+        {
+            if (data[i].GetType() == typeof(UnityEngine.Sprite)) {
+                if(data[i].ToString().Substring(1) == "Route")
+                {
+
+                }
+            }
+        }
+        Debug.Log(numSprites);
+    }
+        
+
+    //PlaceTrack(1, 1)
     // Update is called once per frame
     void Update()
     {

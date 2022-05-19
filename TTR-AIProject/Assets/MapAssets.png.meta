@@ -183,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 200
-        y: 600
+        y: 596
         width: 1500
         height: 200
       alignment: 0
@@ -203,8 +203,8 @@ TextureImporter:
       name: 4Route
       rect:
         serializedVersion: 2
-        x: 200
-        y: 400
+        x: 196
+        y: 396
         width: 2000
         height: 200
       alignment: 0
@@ -308,8 +308,8 @@ TextureImporter:
       name: 4Train
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 600
+        x: 1696
+        y: 604
         width: 2000
         height: 200
       alignment: 0
@@ -329,7 +329,7 @@ TextureImporter:
       name: 3Train
       rect:
         serializedVersion: 2
-        x: 2200
+        x: 2196
         y: 400
         width: 1500
         height: 200
