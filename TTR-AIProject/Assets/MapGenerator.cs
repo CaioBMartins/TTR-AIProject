@@ -14,19 +14,25 @@ public class MapGenerator : MonoBehaviour
     void Start()
     {
         Object[] data = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/MapAssets.png");
-
-        int numSprites = 0;
-
+        
         for(int i = 0; i < data.Length; i++)
         {
-            if (data[i].GetType() == typeof(UnityEngine.Sprite)) {
-                if(data[i].ToString().Substring(1) == "Route")
+            if (data[i].GetType() == typeof(UnityEngine.Sprite))
+            {
+                if(data[i].ToString().Substring(1) == "Route") {
+                    routeSprites[((data[i].ToString().ToCharArray())[0] - '0')] = (Sprite) data[i];
+                }
+                else if (data[i].ToString().Substring(1) == "Train")
                 {
+                    trainSprites[((data[i].ToString().ToCharArray())[0] - '0')] = (Sprite) data[i];
+                }else
+                {
+                    cityToken = (Sprite) data[i];
 
                 }
             }
         }
-        Debug.Log(numSprites);
+        Debug.Log(routeSprites.Length);
     }
         
 
